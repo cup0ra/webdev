@@ -41,11 +41,15 @@ a {
   text-decoration: none;
   color: #FFFFFF;
   padding: 0px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 a:hover {
   color: #00AFDB;
   border-bottom: 1px solid #00AFDB;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .active {
@@ -170,11 +174,15 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .your_life__item__button:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .your_life__item_social {
@@ -242,12 +250,16 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   margin-top: 10px;
 }
 
 .rappresent__content_block__button:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .rappresent__content-image {
@@ -395,6 +407,8 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   width: 180px;
   text-transform: uppercase;
 }
@@ -402,6 +416,8 @@ body {
 .implement_right_code__content_card__button:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .newsletter_sign_up {
@@ -415,7 +431,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 524px;
-  background: url(/assets/image/pexels-christina-morillo.png);
+  background: url("assets/image/pexels-christina-morillo.png");
   background-position: center -615px;
   color: #FFFFFF;
 }
@@ -450,22 +466,11 @@ body {
   height: 100%;
   width: 340px;
   border: none;
-}
-
-.newsletter_sign_up__form__input::-webkit-input-placeholder {
   padding-left: 23px;
 }
 
-.newsletter_sign_up__form__input:-ms-input-placeholder {
-  padding-left: 23px;
-}
-
-.newsletter_sign_up__form__input::-ms-input-placeholder {
-  padding-left: 23px;
-}
-
-.newsletter_sign_up__form__input::placeholder {
-  padding-left: 23px;
+.newsletter_sign_up__form__input:focus {
+  outline: none;
 }
 
 .newsletter_sign_up__form__button {
@@ -477,6 +482,8 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   width: 66px;
   height: 100%;
   display: -webkit-box;
@@ -493,6 +500,8 @@ body {
 .newsletter_sign_up__form__button:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .download_the_app {
@@ -561,6 +570,8 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,6 +589,8 @@ body {
 .download_the_app__content__download__button_apple:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .download_the_app__content__download__button_apple_text,
@@ -623,6 +636,8 @@ body {
   border: none;
   outline: none;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -639,6 +654,8 @@ body {
 .download_the_app__content__download__button_google:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .footer {
