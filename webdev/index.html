@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdev</title>
-
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
- 
+    <div class="wrapper">
+    <header class='header'>
+        <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item active"><a href="#" class="menu__link">About</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Syllabus</a></li>
+              <li class="menu__item"><img class="menu__logo" src="/assets/image/Vector.png" alt="logo"></li>
+              <li class="menu__item"><a href="#" class="menu__link">Projects</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">FAQ</a></li>
+            </ul>
+        </nav>
+        <h1 class="webdev_h1">webdev</h1>
+    </header>
+    <main>
+        <section class="your_life">
+            <div class="your_life__item">
+                <h2 class="your_life__item__header">YOUR LIFE IS WEBDEV</h2>
+                <p class="your_life__item__description">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+                <button class="your_life__item__button">GET STARTED</button>
+            </div>
+           <div class="your_life__item_social">
+               <a href="#"><img src="assets/image/mail_fff.svg" alt=""></a>
+               <a href="#"><img src="assets/image/facebook_fff.svg" alt=""></a>
+               <a href="#"><img src="assets/image/insta_fff.svg" alt=""></a>
+               <a href="#"><img src="assets/image/telegram_fff.svg" alt=""></a>
+           </div>  
+        </section>
+        <section class="rappresent">
+            <div class="rappresent__content_card">
+                <h3 class="rappresent__content_block__header">Rappresent your idea with
+                    a smart Design</h3>
+                <p class="rappresent__content_block__description">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <b>implementation of build systems</b> , and management of derived artifacts, such as the machine code of computer programs. </p>
+                <button class="rappresent__content_block__button">GET STARTED</button>
+            </div>
+            <div class="rappresent__content-image">
+                <img src="/assets/image/content-image-1.png" alt="content-image">
+            </div>
+        </section>
+        <section class="our_community">
+            <div class="our_community__content_card">
+                <img class="our_community__content_card__icon" src="/assets/image/userpic.png" alt="icon">
+                <h3 class="our_community__content_card__header">our community</h3>
+                <p class="our_community__content_card__description">A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</p>
+            </div>
+            <div class="pagination"><span>&#8249;</span>  1 / 5  <span>&#8250;</span></div>
+            <div class="our_community__slider">
+                <img class="our_community__slider__slide" src="/assets/image/Rectangle1.png" alt="">
+                <img class="our_community__slider__slide"  src="/assets/image/Rectangle.png" alt="">
+                <img class="our_community__slider__slide"  src="/assets/image/slider-item.png" alt="">
+            </div>
+        </section>
+        <section class="implement_right_code">
+            <div class="implement_right_code__content-image">
+                <img src="/assets/image/content-image-2.png" alt="content-image">
+            </div>
+            <div class="implement_right_code__content_card">
+                <h3 class="implement_right_code__content_card__header">Implement right Code</h3>
+                <p class="implement_right_code__content_card__description">These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation</p>
+                <button class="implement_right_code__content_card__button">Learn more</button>
+            </div>
+        </section>
+        <section class="newsletter_sign_up">
+            <div class="newsletter_sign_up__content">
+                <h3 class="newsletter_sign_up__content__header">sign up for our newsletter</h3>
+                <form class="newsletter_sign_up__form" action="">
+                    <input class="newsletter_sign_up__form__input" required type="email" placeholder="E-mail">
+                    <button class="newsletter_sign_up__form__button"><img src="/assets/image/check-icon.png" alt=""></button>
+                </form>
+            </div>
+        </section>
+        <section class="download_the_app">
+            <div class="download_the_app__content">
+                <h3 class="download_the_app__content__header">Download the App</h3>
+                <p class="download_the_app__content__description">Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
+                <div class="download_the_app__content__download">
+                    <button class="download_the_app__content__download__button_apple">
+                        <span class="download_the_app__content__download__button_apple_text" >apple store</span>
+                        <span class="download_the_app__content__download__button_apple_logo"><img src="/assets/image/apple.png" alt=""></span>
+                    </button>
+                    <button class="download_the_app__content__download__button_google">
+                        <span class="download_the_app__content__download__button_google_text">Play Market</span>
+                        <span class="download_the_app__content__download__button_google_logo"><img src="/assets/image/google.png" alt=""></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_wrapper">
+        <nav class="footer__menu">
+            <ul class="footer__menu_list">
+                <li class="footer__menu_list__item"><a href="#">Credits</a></li>
+                <li class="footer__menu_list__item"><a href="#">Privacy</a></li>
+                <li class="footer__menu_list__item"><a href="#">Our teams</a></li>
+            </ul>
+        </nav>
+        <div class="footer__logo"><img src="/assets/image/Vector.png" alt="logo"></div>
+        <div><p class="footer__text">by TonYem for RSS at 2020</p></div>
+        </div>  
+    </footer>
+</div>
 </body>
 </html>
