@@ -56,6 +56,7 @@ a:hover{
   }
   @mixin button() {
       width: 185px;
+      height: 46px;
     background: #00AFDB;
     color: #FFFFFF;
     padding: 15px;
@@ -120,10 +121,7 @@ body{
 .your_life__item{
     @include flexible ();
     flex-direction: column;
-    margin-top: 141px;
-   
-    
-   
+    margin-top: 139px; 
 }
 .your_life__item__header{
     font-weight: bold;
@@ -136,8 +134,8 @@ body{
     text-align: center;
     font-size: 1em;
     line-height: 25px;
-    margin-bottom: 31px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 21px;
     font-weight: 400;
     letter-spacing: 1px;
   
@@ -153,6 +151,12 @@ body{
 	align-items: center;
     width: 170px;
     margin-top: 183px;
+    a{
+        border: none;
+        &:hover{
+            filter: opacity(50%);
+        }
+    }
 }
 .rappresent{
     height: 842px;
@@ -232,10 +236,21 @@ body{
     position: absolute;
     top:70px;
     right: 260px;
-    span{
-        font-size: 1.8em;
-        margin: 0 11px;
+   
+}
+.pagination_next,
+.pagination_prev{
+    font-size: 1.8em;
+    margin: 0px 11px 0 11px;
+    transition: 0.5s;
+    &:hover{
+        color:#00AFDB;
+        cursor: pointer;
+        transition: 0.5s;
     }
+}
+.pagination_number{
+
 }
 .our_community__slider__slide{
     margin-right: 30px;
@@ -267,7 +282,7 @@ body{
     line-height: 20px;
     letter-spacing: -0.2px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
 }
 .implement_right_code__content_card__button{
     @include button;  
@@ -278,7 +293,7 @@ body{
     @include flexible ();
     justify-content: center;
     height: 524px;
-    background: url('assets/image/pexels-christina-morillo.png');
+    background-image: url('assets/image/pexels-christina-morillo.png');
     background-position: center -615px;
     color: #FFFFFF;
 }
@@ -315,9 +330,10 @@ text-align: center;
    display: flex;
    justify-content: center;
    align-items: center;
-    img{
-
-    }
+}
+.newsletter_sign_up__form__button:hover .newsletter_sign_up__form__button_img{
+    filter: invert(1);
+    transition: 0.5s;
 }
 .download_the_app{
     height: 464px;
@@ -336,7 +352,7 @@ text-align: center;
     font-size: 1.35em;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
    margin-top: -61px;
    margin-left: 3px;
 }
@@ -344,7 +360,7 @@ text-align: center;
     font-size: 0.9em;
     line-height: 20px;
     letter-spacing: -0.2px;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
     text-align: center;
 
 }
@@ -358,6 +374,7 @@ text-align: center;
     margin-right: 30px;
     height: 46px;
     width: 186px;
+    transition: 0.5s;
 }
 .download_the_app__content__download__button_apple_text,
 .download_the_app__content__download__button_google_text{
@@ -367,6 +384,21 @@ text-align: center;
     @include flexible ();
     justify-content: center; 
     text-transform: uppercase;
+    transition: 0.5s;
+    &:hover{
+       text-decoration: underline;
+       transition: 0.5s;
+       
+    }
+    &:hover .download_the_app__content__download__button_apple_logo{
+        filter: invert(1);
+    }
+
+}
+.download_the_app__content__download__button_apple:hover .download_the_app__content__download__button_apple_logo,
+.download_the_app__content__download__button_google:hover .download_the_app__content__download__button_google_logo{
+    filter: invert(9);
+    transition: 0.5s;
 }
 .download_the_app__content__download__button_google_logo,
 .download_the_app__content__download__button_apple_logo{
@@ -377,6 +409,7 @@ text-align: center;
     @include flexible ();
     justify-content: center;
 }
+
 .download_the_app__content__download__button_google{
     @include button;
     @include flexible ();

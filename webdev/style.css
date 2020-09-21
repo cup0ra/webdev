@@ -144,7 +144,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 141px;
+  margin-top: 139px;
 }
 
 .your_life__item__header {
@@ -159,14 +159,15 @@ body {
   text-align: center;
   font-size: 1em;
   line-height: 25px;
-  margin-bottom: 31px;
-  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-top: 21px;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
 .your_life__item__button {
   width: 185px;
+  height: 46px;
   background: #00AFDB;
   color: #FFFFFF;
   padding: 15px;
@@ -203,6 +204,15 @@ body {
           align-items: center;
   width: 170px;
   margin-top: 183px;
+}
+
+.your_life__item_social a {
+  border: none;
+}
+
+.your_life__item_social a:hover {
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
 }
 
 .rappresent {
@@ -243,6 +253,7 @@ body {
 
 .rappresent__content_block__button {
   width: 185px;
+  height: 46px;
   background: #00AFDB;
   color: #FFFFFF;
   padding: 15px;
@@ -343,9 +354,20 @@ body {
   right: 260px;
 }
 
-.pagination span {
+.pagination_next,
+.pagination_prev {
   font-size: 1.8em;
-  margin: 0 11px;
+  margin: 0px 11px 0 11px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pagination_next:hover,
+.pagination_prev:hover {
+  color: #00AFDB;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .our_community__slider__slide {
@@ -395,11 +417,12 @@ body {
   line-height: 20px;
   letter-spacing: -0.2px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
 }
 
 .implement_right_code__content_card__button {
   width: 185px;
+  height: 46px;
   background: #00AFDB;
   color: #FFFFFF;
   padding: 15px;
@@ -431,7 +454,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 524px;
-  background: url("assets/image/pexels-christina-morillo.png");
+  background-image: url("assets/image/pexels-christina-morillo.png");
   background-position: center -615px;
   color: #FFFFFF;
 }
@@ -475,6 +498,7 @@ body {
 
 .newsletter_sign_up__form__button {
   width: 185px;
+  height: 46px;
   background: #00AFDB;
   color: #FFFFFF;
   padding: 15px;
@@ -500,6 +524,13 @@ body {
 .newsletter_sign_up__form__button:hover {
   background-color: #009CC2;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newsletter_sign_up__form__button:hover .newsletter_sign_up__form__button_img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -539,7 +570,7 @@ body {
   font-size: 1.35em;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   margin-top: -61px;
   margin-left: 3px;
 }
@@ -548,7 +579,7 @@ body {
   font-size: 0.9em;
   line-height: 20px;
   letter-spacing: -0.2px;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
   text-align: center;
 }
 
@@ -563,6 +594,7 @@ body {
 
 .download_the_app__content__download__button_apple {
   width: 185px;
+  height: 46px;
   background: #00AFDB;
   color: #FFFFFF;
   padding: 15px;
@@ -584,6 +616,8 @@ body {
   margin-right: 30px;
   height: 46px;
   width: 186px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .download_the_app__content__download__button_apple:hover {
@@ -608,6 +642,29 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.download_the_app__content__download__button_apple_text:hover,
+.download_the_app__content__download__button_google_text:hover {
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.download_the_app__content__download__button_apple_text:hover .download_the_app__content__download__button_apple_logo,
+.download_the_app__content__download__button_google_text:hover .download_the_app__content__download__button_apple_logo {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.download_the_app__content__download__button_apple:hover .download_the_app__content__download__button_apple_logo,
+.download_the_app__content__download__button_google:hover .download_the_app__content__download__button_google_logo {
+  -webkit-filter: invert(9);
+          filter: invert(9);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .download_the_app__content__download__button_google_logo,
@@ -629,6 +686,7 @@ body {
 
 .download_the_app__content__download__button_google {
   width: 185px;
+  height: 46px;
   background: #00AFDB;
   color: #FFFFFF;
   padding: 15px;
