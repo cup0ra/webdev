@@ -168,8 +168,8 @@ body{
 .rappresent__content_card{
     width: 407px;
     height: 233px;
-   margin-right: 248px;
-   margin-top: -21px;
+    margin-right: 248px;
+    margin-top: -21px;
 }
 .rappresent__content_block__header{
     width: 370px;
@@ -249,9 +249,6 @@ body{
         transition: 0.5s;
     }
 }
-.pagination_number{
-
-}
 .our_community__slider__slide{
     margin-right: 30px;
 }
@@ -264,7 +261,7 @@ body{
     margin-top: -20px; 
 }
 .implement_right_code__content_card{
-  display: flex;
+    display: flex;
     flex-direction: column;
     width: 407px;
     height: 184px;
@@ -301,11 +298,11 @@ body{
     width: 406px;
 }
 .newsletter_sign_up__content__header{
-text-transform: uppercase;
-font-size: 1.35em;
-letter-spacing: 2.4px;
-margin-top: -21px;
-text-align: center;
+    text-transform: uppercase;
+    font-size: 1.35em;
+    letter-spacing: 2.4px;
+    margin-top: -21px;
+    text-align: center;
 }
 .newsletter_sign_up__form{
     height: 46px;
@@ -388,12 +385,10 @@ text-align: center;
     &:hover{
        text-decoration: underline;
        transition: 0.5s;
-       
     }
     &:hover .download_the_app__content__download__button_apple_logo{
         filter: invert(1);
     }
-
 }
 .download_the_app__content__download__button_apple:hover .download_the_app__content__download__button_apple_logo,
 .download_the_app__content__download__button_google:hover .download_the_app__content__download__button_google_logo{
@@ -431,9 +426,7 @@ text-align: center;
     justify-content: space-between;
     margin-top: -20px;
 }
-.footer__menu{
-  
-}
+
 .footer__menu_list{
     @include flexible ();
     justify-content: space-between;
@@ -448,9 +441,9 @@ text-align: center;
 }
 .footer__menu_list__item::after{
 content: '|';
-font-size: 9px;
-margin-left: 20px;
-margin-right: 17px;
+    font-size: 9px;
+    margin-left: 20px;
+    margin-right: 17px;
 }
 .footer__menu_list__item:last-child::after{
    display: none;
