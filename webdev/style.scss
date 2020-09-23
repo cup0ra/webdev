@@ -39,14 +39,18 @@ a{
     color: #FFFFFF;
     padding: 0px 0;
     transition: 0.5s;
+    border-bottom: 1px solid inherit;
 }
 a:hover{
     color: #00AFDB;
     border-bottom: 1px solid #00AFDB;
     transition: 0.5s;
+    
 }
 .active{
+    margin-top: 2px;
     border-bottom: 1px solid #ffffff;
+    padding-bottom: 1px;
 }
 
 @mixin flexible () {
@@ -271,15 +275,29 @@ body{
     margin-top: -20px;
 }
 .pagination{
+    width: 95px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
     position: absolute;
-    top:70px;
-    right: 260px;
+    top:80px;
+    right: 263px;
    
+}
+.pagination_number1{
+ margin-right: -10px;
+font-size: 1.1em;
+}
+.pagination_number2{
+ margin-left: -10px ;
+ font-size: 1.1em;
 }
 .pagination_next,
 .pagination_prev{
-    font-size: 1.8em;
-    margin: 0px 11px 0 11px;
+    height: 20px;
+    font-size: 1.9em;
+    line-height: 15px;
     transition: 0.5s;
     &:hover{
         color:#00AFDB;
@@ -384,8 +402,8 @@ body{
     width: 488px;
 }
 .download_the_app__content__header{
-    font-size: 1.35em;
-    letter-spacing: 2.5px;
+    font-size: 1.36em;
+    letter-spacing: 2.4px;
     text-transform: uppercase;
     margin-bottom: 21px;
    margin-top: -61px;
@@ -483,19 +501,22 @@ body{
 }
 .footer__menu_list__item{
     list-style-type: none;
-    
+    font-weight: 300;
+    font-size: 1em;
 }
 .footer__menu_list__item::after{
 content: '|';
     font-size: 9px;
     margin-left: 20px;
-    margin-right: 17px;
+    margin-right: 18px;
+    padding-bottom: 5px;
+    color:#818181;
 }
 .footer__menu_list__item:last-child::after{
    display: none;
 }
 .footer__logo{
-   margin-left: -69px;
+   margin-left: -68px;
 }
 .footer__text{
     color: #818181;
