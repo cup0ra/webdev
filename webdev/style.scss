@@ -283,15 +283,14 @@ body{
     position: absolute;
     top:80px;
     right: 263px;
-   
 }
 .pagination_number1{
- margin-right: -10px;
-font-size: 1.1em;
+    margin-right: -10px;
+    font-size: 1.1em;
 }
 .pagination_number2{
- margin-left: -10px ;
- font-size: 1.1em;
+    margin-left: -10px ;
+    font-size: 1.1em;
 }
 .pagination_next,
 .pagination_prev{
@@ -380,9 +379,9 @@ font-size: 1.1em;
     @include button;
     width: 66px; 
     height: 100%; 
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .newsletter_sign_up__form__button:hover .newsletter_sign_up__form__button_img{
     filter: invert(1);
@@ -393,7 +392,6 @@ font-size: 1.1em;
     background-color: #F5F6F7;
     @include flexible ();
     justify-content: center;
-    
 }
 .download_the_app__content{
     @include flexible ();
@@ -415,7 +413,6 @@ font-size: 1.1em;
     letter-spacing: -0.2px;
     margin-bottom: 31px;
     text-align: center;
-
 }
 .download_the_app__content__download{
     @include flexible ();
